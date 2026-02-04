@@ -388,18 +388,7 @@ export const Main: React.FC = () => {
 
       {/* Features pop in */}
       <Sequence from={FEATURES_START}>
-        <Audio src={sfx.blip} volume={0.3} />
-      </Sequence>
-      <Sequence from={FEATURES_START + 5}>
-        <Audio src={sfx.blip} volume={0.3} />
-      </Sequence>
-      <Sequence from={FEATURES_START + 9}>
-        <Audio src={sfx.blip} volume={0.3} />
-      </Sequence>
-
-      {/* API badge slice */}
-      <Sequence from={FEATURES_START + 45}>
-        <Audio src={sfx.slideIn} volume={0.35} />
+        <Audio src={sfx.blip} volume={0.4} />
       </Sequence>
 
       <AbsoluteFill
