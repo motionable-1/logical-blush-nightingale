@@ -33,21 +33,21 @@ const colors = {
 
 // ===== SOUND EFFECTS (Custom Generated) =====
 const sfx = {
-  // Cinematic whoosh with digital glitch for logo reveal
+  // Cinematic whoosh sweep for logo reveal
   whoosh:
-    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223107851_xapaxbdmzb_sfx_cinematic_whoosh_with_digital_.sfx-cinematic-whoosh-with-digital-",
-  // Neon light powering on with electric buzz for frame draw
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223291658_ffr9yrfyvj9_sfx_cinematic_whoosh_sweep__fast_f.sfx-cinematic-whoosh-sweep--fast-f",
+  // Neon light electric buzz powering on for frame draw
   neonPowerOn:
-    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223110510_ftq0kweovcq_sfx_neon_light_powering_on_with_el.sfx-neon-light-powering-on-with-el",
-  // Deep cinematic impact for title reveal
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223295306_fjp63sjxqqt_sfx_neon_light_electric_buzz_power.sfx-neon-light-electric-buzz-power",
+  // Deep cinematic impact hit for title reveal
   impact:
-    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223113979_hyfb2qrmetp_sfx_deep_cinematic_impact_hit_with.sfx-deep-cinematic-impact-hit-with",
-  // Soft digital blip for feature items
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223297840_9xohvwon0wd_sfx_deep_cinematic_impact_hit_with.sfx-deep-cinematic-impact-hit-with",
+  // Soft digital UI pop for feature items
   blip:
-    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223116736_fo614uvqs6v_sfx_soft_digital_blip_pop_notifica.sfx-soft-digital-blip-pop-notifica",
-  // Sleek tech slide for API badge
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223300464_guwmt2873go_sfx_soft_digital_UI_pop_click__sub.sfx-soft-digital-UI-pop-click--sub",
+  // Tech glitch slice for API badge
   slideIn:
-    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223119986_hldviu79c0e_sfx_sleek_tech_slide_in_sound_with.sfx-sleek-tech-slide-in-sound-with",
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/mp3/1770223302839_lngnhsp4ts_sfx_tech_glitch_slice_swoosh__digi.sfx-tech-glitch-slice-swoosh--digi",
 };
 
 // ===== FLOATING PARTICLES COMPONENT =====
