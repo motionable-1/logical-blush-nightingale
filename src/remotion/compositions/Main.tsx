@@ -31,6 +31,13 @@ const colors = {
   darkGray: "#2B2D42",
 };
 
+// ===== MUSIC =====
+const music = {
+  // Dark cinematic electronic ambient
+  bgTrack:
+    "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/music/1770224297936_e388x3y25r4_music_Cinematic_dark_elect.mp3",
+};
+
 // ===== SOUND EFFECTS (Custom Generated) =====
 const sfx = {
   // Cinematic whoosh sweep for logo reveal
@@ -359,6 +366,9 @@ export const Main: React.FC = () => {
       {frame === 0 && (
         <Artifact content={Artifact.Thumbnail} filename="thumbnail.jpeg" />
       )}
+
+      {/* ===== BACKGROUND MUSIC ===== */}
+      <Audio src={music.bgTrack} volume={0.35} />
 
       {/* ===== SOUND EFFECTS ===== */}
       {/* Logo reveal whoosh */}
